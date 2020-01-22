@@ -27,6 +27,9 @@ exports.createPages = async ({
 		createPage({
 			path: `/blog/${post.frontmatter.slug}`,
 			component: require.resolve(`./src/templates/post.js`),
+			context: {
+				slug: post.frontmatter.slug,
+			}
 		})
 	})
 }
