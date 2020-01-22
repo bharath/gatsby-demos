@@ -7,3 +7,5 @@ const PostTemplate = () => (
 		<p>Post content..</p>
 	</Layout>
 )
+
+export default PostTemplate
