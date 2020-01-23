@@ -1,10 +1,17 @@
 import React from "react"
+import useSiteMetadata from "../hooks/user-sitemetadata"
 
-export default () => (
+const Footer = () => {
+  const { title, description } = useSiteMetadata()
 
-	<footer>
-		<hr />
-		<p>Copyright 2020 Bharath.</p>
-	</footer>
+  return (
+    <footer>
+      <hr />
+      <p>
+        Copyright {title} - {description}
+      </p>
+    </footer>
+  )
+}
 
-)
+export default Footer

@@ -11,6 +11,7 @@ module.exports = {
 	  description: `Just another Gatsby site`,
   },
   plugins: [
+	  `gatsby-plugin-react-helmet`,
 	  {
 		  resolve: `gatsby-source-filesystem`,
 		  options: {
