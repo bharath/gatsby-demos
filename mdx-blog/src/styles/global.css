@@ -45,3 +45,8 @@ header nav ul a[aria-current="page"] {
 header nav ul a:first-child {
 	padding-left: 0;
 }
+
+.shoutout {
+	background: lightgoldenrodyellow;
+	padding: 1rem;
+}

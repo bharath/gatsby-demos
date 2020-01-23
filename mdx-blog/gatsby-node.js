@@ -33,3 +33,11 @@ exports.createPages = async ({
 		})
 	})
 }
+
+exports.onCreateWebpackConfig = ({ actions: { setWebpackConfig }}) => {
+	setWebpackConfig({
+		resolve: {
+			modules: [path.resolve(__dirname, "src"), "node_modules"]
+		},
+	})
+}

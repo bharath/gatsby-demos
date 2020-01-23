@@ -7,7 +7,7 @@ import "../styles/global.css"
 export default ({ children }) => (
 	<div>
 		<Header />
-		<div class="content">{ children }</div>
+		<div className="content">{ children }</div>
 		<Footer />
 	</div>
 )
