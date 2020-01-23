@@ -33,10 +33,13 @@ const Header =  () => (
 				<nav>
 					<ul>
 						<li>
-							<Link to={"/"}>Home</Link>
+							<Link to={"/"} activeClassName="active">Home</Link>
 						</li>
 						<li>
-							<Link to={"/about"}>About</Link>
+							<Link to={"/about"} activeClassName="active">About</Link>
+						</li>
+						<li>
+							<Link to={"/blog"} activeClassName="active" partiallyActive={true}>Blog</Link>
 						</li>
 					</ul>
 				</nav>
