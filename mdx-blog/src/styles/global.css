@@ -48,5 +48,6 @@ header nav ul a:first-child {
 
 .shoutout {
 	background: lightgoldenrodyellow;
+	/*background: url(../images/gatsby-icon.png);*/
 	padding: 1rem;
 }
