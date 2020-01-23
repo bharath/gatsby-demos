@@ -25,7 +25,7 @@ export default ({
 	},
 }) => (
 	<Layout>
-		<SEO title={title} />
+		<SEO title={`${title} | Blog`} />
 		<p><Link to={"/blog/"}>&lt; Back to all posts</Link></p>
 		<h1>{title}</h1>
 		<MDXRenderer>{content}</MDXRenderer>
