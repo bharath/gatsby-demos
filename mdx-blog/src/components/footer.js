@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <hr />
       <p>
-        Copyright {title} - {description}
+        Copyright 2020 {title} - {description}
       </p>
     </footer>
   )
